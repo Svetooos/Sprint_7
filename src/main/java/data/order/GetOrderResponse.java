@@ -1,18 +1,18 @@
 package data.order;
 
+import java.util.List;
+
 public class GetOrderResponse {
 
-    private Orders orders;
+    private Orders[] orders;
 
-    public Orders getOrders() {
+    public Orders[] getOrders() {
         return orders;
     }
 
-    public void setOrders(Orders orders) {
+    public void setOrders(Orders[] orders) {
         this.orders = orders;
     }
-
-
 }
 
 
